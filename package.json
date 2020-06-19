@@ -14,6 +14,7 @@
 	},
 	"scripts": {
 		"scrape-work-at-start-up": "env-cmd -f .env node scripts/scrape-work-at-startup.js",
-		"scrape-remote-co": "env-cmd -f .env node scripts/scrape-remote-co.js"
+		"scrape-remote-co": "env-cmd -f .env node scripts/scrape-remote-co.js",
+		"scrape-angel-co": "env-cmd -f .env node scripts/scrape-angel-co.js"
 	}
 }
