@@ -1,0 +1,19 @@
+{
+	"name": "crawling",
+	"version": "1.0.0",
+	"description": "scripts for crawling the websites",
+	"main": "index.js",
+	"repository": "git@github.com:PestoTech/crawling.git",
+	"author": "Nimish <nimishgupta18396@gmail.com>",
+	"license": "Yes",
+	"private": false,
+	"dependencies": {
+		"airtable": "^0.8.1",
+		"env-cmd": "^10.1.0",
+		"lodash": "^4.17.15"
+	},
+	"scripts": {
+		"scrape-work-at-start-up": "env-cmd -f .env node scripts/scrape-work-at-startup.js",
+		"scrape-remote-co": "env-cmd -f .env node scripts/scrape-remote-co.js"
+	}
+}
