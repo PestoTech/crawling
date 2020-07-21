@@ -10,7 +10,7 @@
 	"dependencies": {
 		"airtable": "^0.8.1",
 		"env-cmd": "^10.1.0",
-		"lodash": "^4.17.15"
+		"lodash": "^4.17.19"
 	},
 	"scripts": {
 		"scrape-work-at-start-up": "env-cmd -f .env node scripts/scrape-work-at-startup.js",
